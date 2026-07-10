@@ -1,0 +1,3 @@
+source,reason,raw_line
+nginx,empty_request_id,"{""timestamp"":""2026-07-09T21:29:52+00:00"",""request_id"":"""",""client_ip"":""172.18.0.1"",""client_country"":"""",""scenario"":"""",""method"":""GET"",""path"":""/health"",""service"":""nginx"",""status_code"":200,""request_time_sec"":""0.000"",""user_agent"":""python-requests/2.25.1""}"
+nginx,empty_request_id,"{""timestamp"":""2026-07-09T21:34:20+00:00"",""request_id"":"""",""client_ip"":""172.18.0.1"",""client_country"":"""",""scenario"":"""",""method"":""GET"",""path"":""/health"",""service"":""nginx"",""status_code"":200,""request_time_sec"":""0.000"",""user_agent"":""python-requests/2.25.1""}"

@@ -1,0 +1,80 @@
+# =====================================================================
+# Application stack — Phase 1
+#
+#   traffic-generator  --->  Nginx (:8080)  --->  backend services
+#                              |                        |
+#                              v                        v
+#                    data/nginx/nginx_access.log   data/service_logs/*.log
+#
+# Start with:   docker compose up --build -d
+# Check with:   docker compose ps
+# Nginx test:   docker compose exec nginx nginx -t
+#
+# NOTE: backend ports are deliberately NOT published to the host, so the
+# traffic generator physically cannot bypass Nginx.
+# =====================================================================
+services:
+  match-service:
+    build: ./match-service
+    container_name: match-service
+    environment:
+      - SERVICE_PORT=8000
+      - SERVICE_LOG_PATH=/app/data/service_logs/match_service.log
+    volumes:
+      - ./data/service_logs:/app/data/service_logs
+    expose:
+      - "8000"
+    networks:
+      - worldcup
+    restart: unless-stopped
+
+  team-service:
+    build: ./team-service
+    container_name: team-service
+    environment:
+      - SERVICE_PORT=8000
+      - SERVICE_LOG_PATH=/app/data/service_logs/team_service.log
+    volumes:
+      - ./data/service_logs:/app/data/service_logs
+    expose:
+      - "8000"
+    networks:
+      - worldcup
+    restart: unless-stopped
+
+  stadium-service:
+    build: ./stadium-service
+    container_name: stadium-service
+    environment:
+      - SERVICE_PORT=8000
+      - SERVICE_LOG_PATH=/app/data/service_logs/stadium_service.log
+    volumes:
+      - ./data/service_logs:/app/data/service_logs
+    expose:
+      - "8000"
+    networks:
+      - worldcup
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:1.25-alpine
+    container_name: nginx
+    depends_on:
+      - match-service
+      - team-service
+      - stadium-service
+    volumes:
+      # Full nginx.conf (contains events{} + http{}) -> /etc/nginx/nginx.conf
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      # Gateway access log is written straight onto the host
+      - ./data/nginx:/var/log/nginx
+    ports:
+      - "8080:80"
+    networks:
+      - worldcup
+    restart: unless-stopped
+
+networks:
+  worldcup:
+    driver: bridge
+    name: worldcup-net

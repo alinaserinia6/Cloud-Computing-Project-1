@@ -1,0 +1,6 @@
+scenario,total_requests,success_count,error_4xx,error_5xx,error_rate,avg_response_time_ms
+hot_entity,20826,20826,0,0,0.0,26.38
+invalid_input,7750,0,7750,0,1.0,27.18
+normal,48820,48820,0,0,0.0,26.3
+server_error,3380,0,0,3380,1.0,26.28
+slow,6174,6158,16,0,0.0026,912.46

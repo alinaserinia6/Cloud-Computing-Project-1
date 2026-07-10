@@ -1,0 +1,164 @@
+{	
+  "service_stats": {	
+    "match-service": {	
+      "error_rate": 0.1058,	
+      "error_5xx": 1007,	
+      "avg_response_time_ms": 69.76,	
+      "total_requests": 24564,	
+      "success_count": 21965,	
+      "error_4xx": 1592	
+    },	
+    "stadium-service": {	
+      "error_rate": 0.1934,	
+      "error_5xx": 841,	
+      "avg_response_time_ms": 165.28,	
+      "total_requests": 26378,	
+      "success_count": 21276,	
+      "error_4xx": 4261	
+    },	
+    "team-service": {	
+      "error_rate": 0.0957,	
+      "error_5xx": 1532,	
+      "avg_response_time_ms": 47.02,	
+      "total_requests": 36008,	
+      "success_count": 32563,	
+      "error_4xx": 1913	
+    }	
+  },	
+  "total_4xx": 7766,	
+  "most_popular_team_overall": "Argentina",	
+  "predicted_final_winner": "Argentina",	
+  "predicted_final": "France vs Argentina",	
+  "most_requested_match_day_overall": "2026-06-25",	
+  "popular_team_by_country": {	
+    "Iran": "Argentina",	
+    "Argentina": "Argentina",	
+    "Mexico": "Mexico",	
+    "Brazil": "Brazil",	
+    "USA": "USA",	
+    "Germany": "Germany",	
+    "Spain": "Spain",	
+    "Canada": "Canada",	
+    "France": "France",	
+    "Japan": "Japan",	
+    "Morocco": "Morocco"	
+  },	
+  "popular_city_by_country": {	
+    "Iran": "Toronto",	
+    "Argentina": "Miami",	
+    "Mexico": "Toronto",	
+    "Brazil": "Dallas",	
+    "USA": "Vancouver",	
+    "Germany": "Dallas",	
+    "Spain": "Toronto",	
+    "Canada": "Miami",	
+    "France": "Atlanta",	
+    "Japan": "Miami",	
+    "Morocco": "New York New Jersey"	
+  },	
+  "predicted_final_stadium": "New York New Jersey Stadium",	
+  "endpoint_stats": {	
+    "/api/stadiums": {	
+      "error_rate": 0.1934,	
+      "error_5xx": 841,	
+      "avg_response_time_ms": 165.28,	
+      "total_requests": 26378,	
+      "success_count": 21276,	
+      "error_4xx": 4261	
+    },	
+    "/api/teams": {	
+      "error_rate": 0.0957,	
+      "error_5xx": 1532,	
+      "avg_response_time_ms": 47.02,	
+      "total_requests": 36008,	
+      "success_count": 32563,	
+      "error_4xx": 1913	
+    },	
+    "/api/matches": {	
+      "error_rate": 0.1058,	
+      "error_5xx": 1007,	
+      "avg_response_time_ms": 69.76,	
+      "total_requests": 24564,	
+      "success_count": 21965,	
+      "error_4xx": 1592	
+    }	
+  },	
+  "total_requests": 86950,	
+  "most_requested_stadium_overall": "New York New Jersey Stadium",	
+  "most_requested_service": "team-service",	
+  "highest_error_rate_service": "stadium-service",	
+  "popular_match_day_by_country": {	
+    "Iran": "2026-06-25",	
+    "Argentina": "2026-06-25",	
+    "Mexico": "2026-06-25",	
+    "Brazil": "2026-06-25",	
+    "USA": "2026-06-25",	
+    "Germany": "2026-06-25",	
+    "Spain": "2026-06-25",	
+    "Canada": "2026-06-25",	
+    "France": "2026-06-25",	
+    "Japan": "2026-06-25",	
+    "Morocco": "2026-06-25"	
+  },	
+  "slowest_endpoint": "/api/stadiums",	
+  "popular_stadium_by_country": {	
+    "Iran": "New York New Jersey Stadium",	
+    "Argentina": "New York New Jersey Stadium",	
+    "Mexico": "New York New Jersey Stadium",	
+    "Brazil": "New York New Jersey Stadium",	
+    "USA": "New York New Jersey Stadium",	
+    "Germany": "New York New Jersey Stadium",	
+    "Spain": "New York New Jersey Stadium",	
+    "Canada": "New York New Jersey Stadium",	
+    "France": "New York New Jersey Stadium",	
+    "Japan": "New York New Jersey Stadium",	
+    "Morocco": "New York New Jersey Stadium"	
+  },	
+  "most_requested_city_overall": "Toronto",	
+  "predicted_champion": "Argentina",	
+  "scenario_stats": {	
+    "slow": {	
+      "error_rate": 0.0026,	
+      "error_5xx": 0,	
+      "avg_response_time_ms": 912.46,	
+      "total_requests": 6174,	
+      "success_count": 6158,	
+      "error_4xx": 16	
+    },	
+    "invalid_input": {	
+      "error_rate": 1.0,	
+      "error_5xx": 0,	
+      "avg_response_time_ms": 27.18,	
+      "total_requests": 7750,	
+      "success_count": 0,	
+      "error_4xx": 7750	
+    },	
+    "server_error": {	
+      "error_rate": 1.0,	
+      "error_5xx": 3380,	
+      "avg_response_time_ms": 26.28,	
+      "total_requests": 3380,	
+      "success_count": 0,	
+      "error_4xx": 0	
+    },	
+    "normal": {	
+      "error_rate": 0.0,	
+      "error_5xx": 0,	
+      "avg_response_time_ms": 26.3,	
+      "total_requests": 48820,	
+      "success_count": 48820,	
+      "error_4xx": 0	
+    },	
+    "hot_entity": {	
+      "error_rate": 0.0,	
+      "error_5xx": 0,	
+      "avg_response_time_ms": 26.38,	
+      "total_requests": 20826,	
+      "success_count": 20826,	
+      "error_4xx": 0	
+    }	
+  },	
+  "distinct_countries": 11,	
+  "overall_error_rate": 0.1282,	
+  "total_5xx": 3380	
+}	

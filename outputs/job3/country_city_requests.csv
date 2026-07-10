@@ -1,0 +1,111 @@
+country,city,total_requests
+Argentina,Atlanta,41
+Argentina,Dallas,31
+Argentina,Houston,38
+Argentina,Los Angeles,33
+Argentina,Mexico City,31
+Argentina,Miami,42
+Argentina,New York New Jersey,28
+Argentina,Seattle,38
+Argentina,Toronto,39
+Argentina,Vancouver,36
+Brazil,Atlanta,49
+Brazil,Dallas,51
+Brazil,Houston,41
+Brazil,Los Angeles,48
+Brazil,Mexico City,47
+Brazil,Miami,32
+Brazil,New York New Jersey,45
+Brazil,Seattle,37
+Brazil,Toronto,47
+Brazil,Vancouver,35
+Canada,Atlanta,9
+Canada,Dallas,9
+Canada,Houston,4
+Canada,Los Angeles,10
+Canada,Mexico City,9
+Canada,Miami,13
+Canada,New York New Jersey,10
+Canada,Seattle,9
+Canada,Toronto,8
+Canada,Vancouver,13
+France,Atlanta,39
+France,Dallas,27
+France,Houston,31
+France,Los Angeles,31
+France,Mexico City,34
+France,Miami,27
+France,New York New Jersey,37
+France,Seattle,37
+France,Toronto,35
+France,Vancouver,33
+Germany,Atlanta,40
+Germany,Dallas,54
+Germany,Houston,53
+Germany,Los Angeles,53
+Germany,Mexico City,49
+Germany,Miami,48
+Germany,New York New Jersey,48
+Germany,Seattle,46
+Germany,Toronto,44
+Germany,Vancouver,54
+Iran,Atlanta,61
+Iran,Dallas,58
+Iran,Houston,58
+Iran,Los Angeles,56
+Iran,Mexico City,50
+Iran,Miami,61
+Iran,New York New Jersey,59
+Iran,Seattle,64
+Iran,Toronto,69
+Iran,Vancouver,58
+Japan,Atlanta,23
+Japan,Dallas,32
+Japan,Houston,32
+Japan,Los Angeles,11
+Japan,Mexico City,22
+Japan,Miami,35
+Japan,New York New Jersey,19
+Japan,Seattle,25
+Japan,Toronto,19
+Japan,Vancouver,25
+Mexico,Atlanta,21
+Mexico,Dallas,15
+Mexico,Houston,15
+Mexico,Los Angeles,22
+Mexico,Mexico City,16
+Mexico,Miami,21
+Mexico,New York New Jersey,19
+Mexico,Seattle,18
+Mexico,Toronto,25
+Mexico,Vancouver,22
+Morocco,Atlanta,3
+Morocco,Dallas,5
+Morocco,Houston,6
+Morocco,Los Angeles,6
+Morocco,Mexico City,5
+Morocco,Miami,6
+Morocco,New York New Jersey,10
+Morocco,Seattle,8
+Morocco,Toronto,6
+Morocco,Vancouver,6
+Spain,Atlanta,13
+Spain,Dallas,19
+Spain,Houston,19
+Spain,Los Angeles,16
+Spain,Mexico City,13
+Spain,Miami,15
+Spain,New York New Jersey,14
+Spain,Seattle,18
+Spain,Toronto,22
+Spain,Vancouver,15
+USA,Atlanta,49
+USA,Dallas,39
+USA,Houston,42
+USA,Los Angeles,44
+USA,Mexico City,50
+USA,Miami,33
+USA,New York New Jersey,41
+USA,Seattle,39
+USA,Toronto,44
+USA,Vancouver,54

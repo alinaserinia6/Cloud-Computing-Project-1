@@ -1,0 +1,13 @@
+{
+  "_comment": "Simulation only - NOT official FIFA results. Mirrors PREDICTED_TOURNAMENT_RESULT / the Final row of PREDICTED_KNOCKOUT_MATCHES in match-service/main.py.",
+  "champion": "Argentina",
+  "runner_up": "France",
+  "third_place": "Brazil",
+  "fourth_place": "Uruguay",
+  "final": "France vs Argentina",
+  "final_winner": "Argentina",
+  "final_date": "2026-07-19",
+  "final_stadium": "New York New Jersey Stadium",
+  "final_city": "New York New Jersey",
+  "final_score": "1-2"
+}

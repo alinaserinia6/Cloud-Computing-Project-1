@@ -1,0 +1,29 @@
+# =====================================================================
+# Spark stack — bonus part (Structured Streaming)
+#
+#   docker compose -f spark/docker-compose.yml run --rm spark \
+#       spark-submit --master 'local[*]' /project/spark/streaming_app.py \
+#           --input /project/data/stream/nginx \
+#           --service-input /project/data/stream/service_logs \
+#           --checkpoint /project/checkpoints/spark
+#
+# Running spark-submit locally (without Docker) is equally acceptable;
+# any stable Spark 3.x with PySpark works.
+# =====================================================================
+services:
+  spark:
+    image: apache/spark:3.5.1-python3
+    container_name: spark-streaming
+    user: root
+    working_dir: /project
+    volumes:
+      - ../:/project
+    environment:
+      - PYSPARK_PYTHON=python3
+    command: >
+      /opt/spark/bin/spark-submit
+      --master local[*]
+      /project/spark/streaming_app.py
+      --input /project/data/stream/nginx
+      --service-input /project/data/stream/service_logs
+      --checkpoint /project/checkpoints/spark

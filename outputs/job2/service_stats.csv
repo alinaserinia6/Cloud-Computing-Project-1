@@ -1,0 +1,4 @@
+service,total_requests,success_count,error_4xx,error_5xx,error_rate,avg_response_time_ms
+match-service,24564,21965,1592,1007,0.1058,69.76
+stadium-service,26378,21276,4261,841,0.1934,165.28
+team-service,36008,32563,1913,1532,0.0957,47.02
