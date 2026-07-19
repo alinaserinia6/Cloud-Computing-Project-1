@@ -333,3 +333,6 @@ docker compose -f spark/docker-compose.yml run --rm spark /opt/spark/bin/spark-s
   [اجرای برنامه‌ی Spark Streaming],
 )
 
+== سورس کد پروژه
+
+https://github.com/alinaserinia6/Cloud-Computing-Project-1/tree/main
